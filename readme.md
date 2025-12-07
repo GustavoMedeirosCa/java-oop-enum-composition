@@ -4,17 +4,21 @@ Projeto simples em Java criado para praticar **composição**, **enumerações (
 
 Este repositório faz parte do meu estudo de Java e será atualizado conforme o desenvolvimento do projeto.
 
-## 📁 Estrutura inicial do projeto
+### 📁 Estrutura inicial do projeto
 
+
+```
 src/
-├── application/
-│ └── Program.java
-├── entities/
-│ ├── Worker.java
-│ ├── Department.java
-│ └── HourContract.java
-├── entities/enums/
-│ └── WorkerLevel.java
+ ├── application/
+ │    └── Program.java
+ ├── entities/
+ │    ├── Worker.java
+ │    ├── Department.java
+ │    └── HourContract.java
+ └── entities/enums/
+      └── WorkerLevel.java
+```
+
 
 ## Tecnologias
 
