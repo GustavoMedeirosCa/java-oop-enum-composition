@@ -39,4 +39,8 @@ public class HourContract {
     public void setHours(Integer hours) {
         this.hours = hours;
     }
+
+    public double totalvalue() {
+        return valuePerHour * hours;
+    }
 }
