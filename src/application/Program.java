@@ -50,7 +50,7 @@ public class Program{
         int year = Integer.parseInt(monthYear.substring(3));
         System.out.println("Name: " + worker.getName());
         System.out.println("Department: " + worker.getDepartment().getName());
-        System.out.print("Income for "+ monthYear + worker.income(year, month));
+        System.out.print("Income for "+ monthYear +" = " +worker.income(year, month));
 
     }
 }
